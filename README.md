@@ -2,7 +2,6 @@
 
 [![My Skills](https://skillicons.dev/icons?i=c,python,vim,bash,html,css)](https://skillicons.dev)
 
-![Terminal demo](./terminal.svg)
 
 <!--
 **2chaynz/2chaynz** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
