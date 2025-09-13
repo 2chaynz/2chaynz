@@ -1,0 +1,20 @@
+name: Metrics
+
+on:
+  schedule: 
+    - cron: "0 0 * * *"   # Génère tous les jours à minuit UTC
+  workflow_dispatch:       # Permet de lancer manuellement
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          # Ton token GitHub stocké en secret
+          token: ${{ secrets.METRICS_TOKEN }}
+          # Nom du fichier généré
+          filename: metrics.plugin.topics.icons.svg
+          # Plugins activés
+          plugin_starred_topics: yes
+          plugin_topics_icons: yes
