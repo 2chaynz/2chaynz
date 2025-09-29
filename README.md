@@ -1,6 +1,5 @@
 ## Hi there 👋
 
-[![My Skills](https://skillicons.dev/icons?i=c,python,vim,bash,html,css)](https://skillicons.dev)
 
 
 <!--
